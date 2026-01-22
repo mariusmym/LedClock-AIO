@@ -22,6 +22,6 @@ Schematic file also include some cheaper alternatives, for photosensitive sensor
  You can also find the files here : https://www.printables.com/model/1087560-led-clock-all-in-one-pcb-powered-by-wled
  
  Segment covers need to be printed with a transparent filament, 20-30% infill, and 2-3 top/bottom layers. Depending on your printer accuracy you might want to print the offset segments file (which are 0.1mm smaller) . **In order to keep track of them I place a masking tape over them before removing them from the plate and then place piece of kitchen  stretch film over the tape.**
-https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1773.JPEG
+![segments cover](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1773.JPEG)
  
  You will also 
