@@ -1,5 +1,6 @@
 # LedClock-AIO
- All In One (PCB) version of the LedClock project by @imeszaros
+
+ All In One (PCB) version of the [LedClock](https://github.com/imeszaros/ledclock/tree/main) project by [imeszaros](https://github.com/imeszaros).
 
  ![IMG_0344s](https://github.com/user-attachments/assets/64c292a2-6a36-4587-9deb-21198bab14c3)
 
