@@ -1,12 +1,12 @@
 # LedClock-AIO
 
- All In One (PCB) version of the [LedClock](https://github.com/imeszaros/ledclock/tree/main) project by [imeszaros](https://github.com/imeszaros).
+ All In One (PCB) version of the LED-Clock project by imeszaros.
 
  ![IMG_0344s](https://github.com/user-attachments/assets/64c292a2-6a36-4587-9deb-21198bab14c3)
 
 ## Description and features
 
-This version features an **ALL IN ONE** PCB approach for the **[ledclock](https://github.com/imeszaros/ledclock)** project by @imeszaros. 
+This version features an **ALL IN ONE** (AIO) approach for the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros). 
 
 The PCB was specifically designed to be under 100mm so it will cost less to produce it. 
 The board can be powered with a USB-C cable.
