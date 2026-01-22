@@ -9,7 +9,9 @@
 This version features an **ALL IN ONE** (AIO) approach for the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros). 
 
 The PCB was specifically designed to be under 100mm so it will cost less to produce it. 
+
 The board can be powered with a USB-C cable.
+
 All the components can be soldered by hand, some of the footprints are modified to allow this, but I still recommend you to **order a stencil** as well, at least for the FRONT of the PCB (where the LEDs are), because otherwise is gonna be quite hard (and time consuming) to hand solder all those LEDs.
 
 ![leds](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_9199.JPEG)
