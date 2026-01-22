@@ -10,6 +10,7 @@ This version features an **ALL IN ONE** PCB approach for the **[ledclock](https:
 The PCB was specifically designed to be under 100mm so it will cost less to produce it. 
 The board can be powered with a USB-C cable.
 All the components can be soldered by hand, some of the footprints are modified to allow this, but I still recommend you to **order a stencil** as well, at least for the FRONT of the PCB (where the LEDs are), because otherwise is gonna be quite hard (and time consuming) to hand solder all those LEDs.
+![leds](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_9199.JPEG)
 
 Schematic file also include some cheaper alternatives, for photosensitive sensor and potentiometer that you can find them on [lcsc.com](https://www.lcsc.com/) by searching the part no. listed below them (example: C242253 - for the photosensitive sensor alternative). **I did not include the alternative parts in the BOM to avoid confusion.** 
 
@@ -18,10 +19,27 @@ Schematic file also include some cheaper alternatives, for photosensitive sensor
 
  ## Assembly instruction and tips
 
- Print the case files from the CaseModel folder of this repository in the colours that you like. 
- You can also find the files here : https://www.printables.com/model/1087560-led-clock-all-in-one-pcb-powered-by-wled
+ Print the case files from the CaseModel folder of this repository in the colours that you like.  You can also find the files here : https://www.printables.com/model/1087560-led-clock-all-in-one-pcb-powered-by-wled
+![case1](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1790.JPEG)
  
- Segment covers need to be printed with a transparent filament, 20-30% infill, and 2-3 top/bottom layers. Depending on your printer accuracy you might want to print the offset segments file (which are 0.1mm smaller) . **In order to keep track of them I place a masking tape over them before removing them from the plate and then place piece of kitchen  stretch film over the tape.**
+ You will also need two M3 heat inserts and two M3x8mm CSK screws. 
+ ![heatinsert](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/img-20241127.jpg)
+ 
+ Segment covers need to be printed with a transparent filament, 20-30% infill, and 2-3 top/bottom layers. Depending on your printer accuracy you might want to print the offset segments file (which are 0.1mm smaller) . 
+ **In order to keep track of them I place a masking tape over them before removing them from the plate and then place piece of kitchen  stretch film over the tape.**
 ![segments cover](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1773.JPEG)
  
- You will also 
+If the tolerances ar too tight you can use a small hammer to "tap" the segments a little bit :)).
+![hammer](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_9272.JPEG)
+![segments in place](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1794.JPEG)
+
+## Firmware
+Firmware is provided by the awesome work of [imeszaros](https://github.com/imeszaros). 
+Just connect the Led Clock onto the computer (be sure you have CH340 drivers installed) and use [this tool](https://imeszaros.github.io/ledclock/) to flash the board. 
+Download the WLED app from your phone's store and connect the clock in order to change the colors. 
+
+A detailed guide can be found here https://github.com/imeszaros/ledclock/blob/main/ledclock/users-guide.md
+
+**ENJOY !**
+
+
