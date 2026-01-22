@@ -55,4 +55,8 @@ A detailed guide can be found here https://github.com/imeszaros/ledclock/blob/ma
 
 **ENJOY !**
 
+![final picture1](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_0344.JPEG)
+![final picture1](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/img-20241126.jpg)
+![final picture1](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1823.JPEG)
+
 
