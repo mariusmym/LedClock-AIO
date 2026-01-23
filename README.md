@@ -23,6 +23,13 @@ Schematic file also include some cheaper alternatives, for photosensitive sensor
 
  ## Assembly instruction and tips
 
+After completing the top-side assembly, proceed with the bottom side.
+Please pay special attention to the photoresistive sensor: **it must be soldered 5–7 mm above the top layer of the PCB so that it protrudes through the case**.
+Also note that the C3 (1000 µF) capacitor must be **mounted horizontally**, as shown in the image below.
+ 
+ ![IMG_0297](https://github.com/user-attachments/assets/840f29f3-97f0-4eee-8427-c4b847fa261d)
+
+
  Print the case files from the CaseModel folder of this repository in the colours that you like.  You can also find the files here : https://www.printables.com/model/1087560-led-clock-all-in-one-pcb-powered-by-wled
  
 ![case1](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1790.JPEG)
