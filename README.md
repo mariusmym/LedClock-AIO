@@ -37,7 +37,7 @@ Schematic file also include some cheaper alternatives, for photosensitive sensor
  
 ![segments cover](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1773.JPEG)
  
-If the tolerances ar too tight you can use a small hammer to "tap" the segments a little bit :)).
+If the tolerances are too tight and you have problems inserting those segments cover, you can use a small hammer to "tap" the segments a little bit :)).
 
 ![hammer](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_9272.JPEG)
 ![segments in place](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1794.JPEG)
