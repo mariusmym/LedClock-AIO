@@ -6,7 +6,7 @@
 
 A **~100x33mm** version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros), powered by [WLED](https://github.com/wled/WLED). 
 
-It tells the time, it changes colors, and it never asks you to update it at 3 AM. Well... almost never.
+It tells the time, it changes colors, and it never asks you to update it at 3 AM. Well ... almost never.
 
 ![IMG_9397-c](Images/IMG_9397-c.jpg)
 
