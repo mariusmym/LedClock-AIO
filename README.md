@@ -14,9 +14,9 @@ It tells the time, it changes colors, and it never asks you to update it at 3 AM
 
 This version takes an **ALL IN ONE** (AIO) approach to the **[ledclock](https://github.com/imeszaros/ledclock)** project: one PCB, no extra modules, no wires hiding inside the case.
 
-- **100x33mm PCB** – deliberately kept under 100mm, because PCB fabs charge extra for every millimeter past that, and that money is better spent on filament.
-- **USB-C powered** – one cable and you're done. No barrel jacks, no mystery power bricks from the drawer.
-- **Hand-solderable** – some footprints were modified specifically to make hand soldering possible.
+- **100x33mm PCB** - deliberately kept under 100mm, because PCB fabs charge extra for every millimeter past that, and that money is better spent on filament.
+- **USB-C powered** - one cable and you're done. No barrel jacks, no mystery power bricks from the drawer.
+- **Hand-solderable** - some footprints were modified specifically to make hand soldering possible.
 
 That said, I still strongly recommend **ordering a stencil**, at least for the FRONT of the PCB (where the LEDs are). Hand soldering all those LEDs one by one is technically possible (the same way walking to the seaside is technically possible).
 
