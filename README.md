@@ -33,6 +33,9 @@ You can also use [WS2812B-2020](https://www.lcsc.com/product-detail/C965555.html
 After finishing the top side, move on to the bottom side, and pay special attention to these two parts:
 
 - **The photoresistive sensor** must be soldered **5–7 mm above the top layer of the PCB**, so it sticks out through the case. Otherwise your clock will think it's permanently night and dim itself into depression.
+
+![distance](Images/IMG_9386-.JPEG)
+  
 - **The C3 capacitor (1000 µF)** must be **mounted horizontally**, as shown in the image below. Standing up, it won't fit in the case, no matter how hard you push (please don't push).
 
 ![capacitor](Images/IMG_9383-cap.JPEG)
