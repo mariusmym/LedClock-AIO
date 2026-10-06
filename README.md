@@ -9,7 +9,7 @@
   <a href="https://imeszaros.github.io/ledclock/"><img src="https://img.shields.io/badge/install-esp%20web%20tools-green"></a>
 </p>
 
- **100x33mm** version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros) and powered by [WLED](https://github.com/wled/WLED).
+ **100 x 33mm** version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros) and powered by [WLED](https://github.com/wled/WLED).
 
 ![IMG_9397-c](Images/IMG_9397-c.jpg)
 
@@ -18,7 +18,7 @@
 
 This version features an **ALL IN ONE** (AIO) approach for the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros). 
 
-The PCB was specifically designed to be under 100mm ( **100x33mm**) so it will cost less to produce it. 
+The PCB was specifically designed to be under 100mm ( **100 x 33mm**) so it will cost less to produce it. 
 
 The board can be powered with a USB-C cable.
 
