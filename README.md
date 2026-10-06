@@ -4,7 +4,8 @@
 
 [![](https://img.shields.io/github/license/mariusmym/LedClock-AIO?color=green)](https://raw.githubusercontent.com/imeszaros/ledclock/master/LICENSE) [![](https://img.shields.io/badge/app-wled-blue.svg)](https://github.com/Aircoookie/WLED-App) [![](https://img.shields.io/badge/models-printables-orange.svg)](https://www.printables.com/model/428523-led-clock-resized2-40x66mm) [![](https://img.shields.io/badge/install-esp%20web%20tools-green)](https://imeszaros.github.io/ledclock/)
 
-A **100x33mm** version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros), powered by [WLED](https://github.com/wled/WLED). It tells the time, it changes colors, and it never asks you to update it at 3 AM. Well, almost never.
+A **100x33mm** version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros), powered by [WLED](https://github.com/wled/WLED). 
+It tells the time, it changes colors, and it never asks you to update it at 3 AM. Well, almost never.
 
 ![IMG_9397-c](Images/IMG_9397-c.jpg)
 
