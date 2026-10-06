@@ -11,7 +11,8 @@
 
  All In One (PCB) version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros) and powered by [WLED](https://github.com/wled/WLED).
 
- ![IMG_0344s](https://github.com/user-attachments/assets/64c292a2-6a36-4587-9deb-21198bab14c3)
+![IMG_9397-c](Images/IMG_9397-c.jpg)
+
 
 ## Description and features
 
