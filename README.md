@@ -1,4 +1,13 @@
-# LedClock-AIO
+# LedClock-AIO (all in one)
+
+![LED Clock](/LedClock-AIO/Images/LedClock-AIO.svg)
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/imeszaros/ledclock/master/LICENSE"><img src="https://img.shields.io/github/license/mariusmym/LedClock-Resized?color=blue&style=flat-square"></a>
+  <a href="https://github.com/Aircoookie/WLED-App"><img src="https://img.shields.io/badge/app-wled-blue.svg?style=flat-square"></a>
+  <a href="https://www.printables.com/model/428523-led-clock-resized2-40x66mm"><img src="https://img.shields.io/badge/models-printables-orange.svg?style=flat-square"></a>
+  <a href="https://imeszaros.github.io/ledclock/"><img src="https://img.shields.io/badge/install-esp%20web%20tools-green"></a>
+</p>
 
  All In One (PCB) version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros) and powered by [WLED](https://github.com/wled/WLED).
 
