@@ -61,7 +61,7 @@ If the tolerances are too tight and the segment covers won't go in, a small hamm
 
 The firmware comes from the awesome work of [imeszaros](https://github.com/imeszaros), so all the credit for the smart part goes to him.
 
-1. **Install the CH340 drivers** BEORE connecting the clock, otherwise your computer will politely pretend nothing is plugged in.
+1. **Install the CH340 drivers** BEFORE connecting the clock, otherwise your computer will politely pretend nothing is plugged in.
 2. Connect the LED Clock to your computer and use [this tool](https://imeszaros.github.io/ledclock/) to flash the board (make sure you select the correct COM port).
 3. Download the WLED app on your phone and connect to the clock to change the colors, effects and everything else:
    - Google Play: https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid
@@ -71,7 +71,7 @@ A detailed user guide can be found here: https://github.com/imeszaros/ledclock/b
 
 ## ENJOY ! 
 
-Now you'll never be late again. Or at least you'll be late in style, in 16 million colors.
+Now you'll never be late again. Or... at least you'll be late in style, in 16 million colors 😎.
 
 ![final picture1](Images/IMG_0344.JPEG) ![final picture2](Images/IMG_9396.JPEG) ![final picture3](Images/IMG_9397.JPEG) ![final picture4](Images/IMG_9399.JPEG)
 
