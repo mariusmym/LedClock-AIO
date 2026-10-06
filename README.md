@@ -4,7 +4,7 @@
 
 [![](https://img.shields.io/github/license/mariusmym/LedClock-AIO?color=green)](https://raw.githubusercontent.com/imeszaros/ledclock/master/LICENSE) [![](https://img.shields.io/badge/app-wled-blue.svg)](https://github.com/Aircoookie/WLED-App) [![](https://img.shields.io/badge/models-printables-orange.svg)](https://www.printables.com/model/428523-led-clock-resized2-40x66mm) [![](https://img.shields.io/badge/install-esp%20web%20tools-green)](https://imeszaros.github.io/ledclock/)
 
-A **100x33mm** version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros), powered by [WLED](https://github.com/wled/WLED). 
+A **~100x33mm** version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros), powered by [WLED](https://github.com/wled/WLED). 
 
 It tells the time, it changes colors, and it never asks you to update it at 3 AM. Well... almost never.
 
@@ -14,7 +14,7 @@ It tells the time, it changes colors, and it never asks you to update it at 3 AM
 
 This version takes an **ALL IN ONE** (AIO) approach to the **[ledclock](https://github.com/imeszaros/ledclock)** project: one PCB, no extra modules, no wires hiding inside the case.
 
-- **100x33mm PCB** - deliberately kept under 100mm, because PCB fabs charge extra for every millimeter past that, and that money is better spent on filament.
+- **99.74x33.2mm PCB** - deliberately kept under 100mm, because PCB fabs charge extra for every millimeter past that, and that money is better spent on filament.
 - **USB-C powered** - one cable and you're done. No barrel jacks, no mystery power bricks from the drawer.
 - **Hand-solderable** - some footprints were modified specifically to make hand soldering possible.
 
