@@ -1,80 +1,78 @@
-# LedClock-AIO (all in one)
+# LedClock-AIO (All In One)
 
 ![LED Clock](Images/LedClock-AIO.svg)
 
-<p align="center">
-  <a href="https://raw.githubusercontent.com/imeszaros/ledclock/master/LICENSE"><img src="https://img.shields.io/github/license/mariusmym/LedClock-Resized?color=green"></a>
-  <a href="https://github.com/Aircoookie/WLED-App"><img src="https://img.shields.io/badge/app-wled-blue.svg"></a>
-  <a href="https://www.printables.com/model/428523-led-clock-resized2-40x66mm"><img src="https://img.shields.io/badge/models-printables-orange.svg"></a>
-  <a href="https://imeszaros.github.io/ledclock/"><img src="https://img.shields.io/badge/install-esp%20web%20tools-green"></a>
-</p>
+[![](https://img.shields.io/github/license/mariusmym/LedClock-AIO?color=green)](https://raw.githubusercontent.com/imeszaros/ledclock/master/LICENSE) [![](https://img.shields.io/badge/app-wled-blue.svg)](https://github.com/Aircoookie/WLED-App) [![](https://img.shields.io/badge/models-printables-orange.svg)](https://www.printables.com/model/428523-led-clock-resized2-40x66mm) [![](https://img.shields.io/badge/install-esp%20web%20tools-green)](https://imeszaros.github.io/ledclock/)
 
- **100x33mm** version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros) and powered by [WLED](https://github.com/wled/WLED).
+A **100x33mm** version of the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros), powered by [WLED](https://github.com/wled/WLED). It tells the time, it changes colors, and it never asks you to update it at 3 AM. Well, almost never.
 
 ![IMG_9397-c](Images/IMG_9397-c.jpg)
 
+## Description and features ✨
 
-## Description and features
+This version takes an **ALL IN ONE** (AIO) approach to the **[ledclock](https://github.com/imeszaros/ledclock)** project: one PCB, no extra modules, no rat's nest of wires hiding behind the case.
 
-This version features an **ALL IN ONE** (AIO) approach for the **[ledclock](https://github.com/imeszaros/ledclock)** project by [imeszaros](https://github.com/imeszaros). 
+- **100x33mm PCB** – deliberately kept under 100mm, because PCB fabs charge extra for every millimeter past that, and that money is better spent on filament.
+- **USB-C powered** – one cable and you're done. No barrel jacks, no mystery power bricks from the drawer.
+- **Hand-solderable** – some footprints were modified specifically to make hand soldering possible.
 
-The PCB was specifically designed to be under 100mm ( **100x33mm**) so it will cost less to produce it. 
+That said, I still strongly recommend **ordering a stencil**, at least for the FRONT of the PCB (where the LEDs are). Hand soldering all those LEDs one by one is technically possible, the same way walking to the seaside is technically possible.
 
-The board can be powered with a USB-C cable.
+![leds](Images/IMG_9199.JPEG)
 
-All the components can be soldered by hand, some of the footprints are modified to allow this, but I still recommend you to **order a stencil** as well, at least for the FRONT of the PCB (where the LEDs are), because otherwise is gonna be quite hard (and time consuming) to hand solder all those LEDs.
+The schematic also includes some cheaper alternatives for the photosensitive sensor and the potentiometer. You can find them on [lcsc.com](https://www.lcsc.com/) by searching the part number listed below each one (e.g. C242253 for the photosensitive sensor alternative). **The alternative parts are not included in the BOM, to avoid confusion.** One BOM, one truth.
 
-![leds](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_9199.JPEG)
+## LEDs alternatives 💡
 
-Schematic file also include some cheaper alternatives, for photosensitive sensor and potentiometer that you can find them on [lcsc.com](https://www.lcsc.com/) by searching the part no. listed below them (example: C242253 - for the photosensitive sensor alternative). **I did not include the alternative parts in the BOM to avoid confusion.** 
+You can also use [WS2812B-2020](https://www.lcsc.com/product-detail/C965555.html) LEDs (a bit more expensive) or [TCWIN TX1812ZN](https://www.lcsc.com/product-detail/C784563.html) (a little bit bigger). Keep in mind that you have to **double/triple check the pin orientation**, since the silkscreen marks don't match. Soldering 30+ LEDs backwards is a lesson you only want to learn once.
 
-## LEDs alternatives
- You can also use [WS2812B-2020](https://www.lcsc.com/product-detail/C965555.html) LEDs which are a bit more expensive, as well as [TCWIN TX1812ZN](https://www.lcsc.com/product-detail/C784563.html) (which are a little bit bigger), but keep in mind that you have to **double/triple check the pin orientation** since the silkscreen marks doesn't match.
+## Assembly instructions and tips 🔧
 
- ## Assembly instruction and tips
+After finishing the top side, move on to the bottom side, and pay special attention to these two parts:
 
-After completing the top-side assembly, proceed with the bottom side.
-Please pay special attention to the photoresistive sensor: **it must be soldered 5–7 mm above the top layer of the PCB so that it protrudes through the case**.
-Also note that the C3 (1000 µF) capacitor must be **mounted horizontally**, as shown in the image below.
- 
- ![IMG_0297](https://github.com/user-attachments/assets/840f29f3-97f0-4eee-8427-c4b847fa261d)
+- **The photoresistive sensor** must be soldered **5–7 mm above the top layer of the PCB**, so it sticks out through the case. Otherwise your clock will think it's permanently night and dim itself into depression.
+- **The C3 capacitor (1000 µF)** must be **mounted horizontally**, as shown in the image below. Standing up, it won't fit in the case, no matter how hard you push (please don't push).
 
+<img src="https://github.com/user-attachments/assets/840f29f3-97f0-4eee-8427-c4b847fa261d" alt="IMG_0297" />
 
- Print the case files from the CaseModel folder of this repository in the colours that you like.  You can also find the files here : https://www.printables.com/model/1087560-led-clock-all-in-one-pcb-powered-by-wled
- 
-![case1](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1790.JPEG)
- 
- You will also need two M3 heat inserts and two M3x8mm CSK screws. 
- 
- ![heatinsert](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/img-20241127.jpg)
- 
- Segment covers need to be printed with a transparent filament, 20-30% infill, and 2-3 top/bottom layers. Depending on your printer accuracy you might want to print the offset segments file (which are 0.1mm smaller) . 
- 
- **In order to keep track of them I place a masking tape over them before removing them from the plate and then place piece of kitchen  stretch film over the tape.**
- 
-![segments cover](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1773.JPEG)
- 
-If the tolerances are too tight and you have problems inserting those segments cover, you can use a small hammer to "tap" the segments a little bit :)).
+## Case 🖨️
 
-![hammer](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_9272.JPEG)
-![segments in place](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_1794.JPEG)
+Print the case files from the **CaseModel** folder of this repository in whatever colors you like. The files are also available on Printables: https://www.printables.com/model/1087560-led-clock-all-in-one-pcb-powered-by-wled
 
-## Firmware
-Firmware is provided by the awesome work of [imeszaros](https://github.com/imeszaros). 
+![case1](Images/IMG_1790.JPEG)
 
-Just connect the Led Clock onto the computer (be sure you have CH340 drivers installed) and use [this tool](https://imeszaros.github.io/ledclock/) to flash the board (be sure to select de proper COM port). 
+You will also need **two M3 heat inserts** and **two M3x8mm countersunk screws**.
 
-Download the WLED app from your phone's store and connect the clock in order to change the colors. 
-- Google Play:  https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid
-- Apple App Store: https://apps.apple.com/us/app/wled-native/id6446207239
+![heatinsert](Images/img-20241127.jpg)
 
-A detailed guide can be found here https://github.com/imeszaros/ledclock/blob/main/ledclock/users-guide.md
+The segment covers need to be printed with **transparent filament, 20–30% infill and 2–3 top/bottom layers**. Depending on how accurate your printer is, you might want to print the offset segments file instead (0.1mm smaller), because not all printers are created equal and some are more "creative" than others.
 
-**ENJOY !**
+**Pro tip:** to keep track of them, put masking tape over the segments before removing them from the build plate, then put a piece of kitchen stretch film over the tape. Otherwise you'll spend the next hour playing a very boring puzzle game.
 
-![final picture1](https://github.com/mariusmym/LedClock-AIO/blob/main/Images/IMG_0344.JPEG)
-![final picture2](Images/IMG_9396.JPEG)
-![final picture3](Images/IMG_9397.JPEG)
-![final picture4](Images/IMG_9399.JPEG)
+![segments cover](Images/IMG_1773.JPEG)
 
+If the tolerances are too tight and the segment covers won't go in, a small hammer and some gentle "tapping" will convince them :)). Gentle being the key word here: we're assembling a clock, not building a deck.
 
+![hammer](Images/IMG_9272.JPEG) ![segments in place](Images/IMG_1794.JPEG)
+
+## Firmware 💾
+
+The firmware comes from the awesome work of [imeszaros](https://github.com/imeszaros), so all the credit for the smart part goes to him. I just made the body.
+
+1. **Install the CH340 drivers** before connecting the clock, otherwise your computer will politely pretend nothing is plugged in.
+2. Connect the LED Clock to your computer and use [this tool](https://imeszaros.github.io/ledclock/) to flash the board (make sure you select the correct COM port).
+3. Download the WLED app on your phone and connect to the clock to change the colors, effects and everything else:
+   - Google Play: https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid
+   - Apple App Store: https://apps.apple.com/us/app/wled-native/id6446207239
+
+A detailed user guide can be found here: https://github.com/imeszaros/ledclock/blob/main/ledclock/users-guide.md
+
+## ENJOY ! 😊
+
+Now you'll never be late again. Or at least you'll be late in style, in 16 million colors.
+
+![final picture1](Images/IMG_0344.JPEG) ![final picture2](Images/IMG_9396.JPEG) ![final picture3](Images/IMG_9397.JPEG) ![final picture4](Images/IMG_9399.JPEG)
+
+## Donate ☕
+
+If you'd like to say thanks or buy me a coffee, a **[PayPal donation](https://www.paypal.com/donate/?hosted_button_id=KHR7DYJP2Z8QJ)** is always appreciated!
