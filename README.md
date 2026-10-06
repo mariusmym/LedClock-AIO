@@ -1,6 +1,6 @@
 # LedClock-AIO (all in one)
 
-![LED Clock](/LedClock-AIO/Images/LedClock-AIO.svg)
+![LED Clock](LedClock-AIO/blob/main/Images/LedClock-AIO.svg)
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/imeszaros/ledclock/master/LICENSE"><img src="https://img.shields.io/github/license/mariusmym/LedClock-Resized?color=blue&style=flat-square"></a>
