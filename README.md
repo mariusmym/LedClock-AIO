@@ -35,7 +35,7 @@ After finishing the top side, move on to the bottom side, and pay special attent
 - **The photoresistive sensor** must be soldered **5–7 mm above the top layer of the PCB**, so it sticks out through the case. Otherwise your clock will think it's permanently night and dim itself into depression.
 - **The C3 capacitor (1000 µF)** must be **mounted horizontally**, as shown in the image below. Standing up, it won't fit in the case, no matter how hard you push (please don't push).
 
-<img src="https://github.com/user-attachments/assets/840f29f3-97f0-4eee-8427-c4b847fa261d" alt="IMG_0297" />
+![capacitor](Images/IMG_9383-cap.JPEG)
 
 ## Case 
 
@@ -73,7 +73,7 @@ A detailed user guide can be found here: https://github.com/imeszaros/ledclock/b
 
 Now you'll never be late again. Or... at least you'll be late in style, in 16 million colors 😎.
 
-![final picture1](Images/IMG_0344.JPEG) ![final picture2](Images/IMG_9396.JPEG) ![final picture3](Images/IMG_9397.JPEG) ![final picture4](Images/IMG_9399.JPEG)
+![final picture1](Images/IMG_0344.JPEG) ![final picture2](Images/IMG_9389.JPEG) ![final picture3](Images/IMG_9397.JPEG) ![final picture4](Images/IMG_9399.JPEG)
 
 ## Donate ☕
 
