@@ -8,25 +8,25 @@ A **100x33mm** version of the **[ledclock](https://github.com/imeszaros/ledclock
 
 ![IMG_9397-c](Images/IMG_9397-c.jpg)
 
-## Description and features ✨
+## Description and features 
 
-This version takes an **ALL IN ONE** (AIO) approach to the **[ledclock](https://github.com/imeszaros/ledclock)** project: one PCB, no extra modules, no rat's nest of wires hiding behind the case.
+This version takes an **ALL IN ONE** (AIO) approach to the **[ledclock](https://github.com/imeszaros/ledclock)** project: one PCB, no extra modules, no wires hiding inside the case.
 
 - **100x33mm PCB** – deliberately kept under 100mm, because PCB fabs charge extra for every millimeter past that, and that money is better spent on filament.
 - **USB-C powered** – one cable and you're done. No barrel jacks, no mystery power bricks from the drawer.
 - **Hand-solderable** – some footprints were modified specifically to make hand soldering possible.
 
-That said, I still strongly recommend **ordering a stencil**, at least for the FRONT of the PCB (where the LEDs are). Hand soldering all those LEDs one by one is technically possible, the same way walking to the seaside is technically possible.
+That said, I still strongly recommend **ordering a stencil**, at least for the FRONT of the PCB (where the LEDs are). Hand soldering all those LEDs one by one is technically possible (the same way walking to the seaside is technically possible).
 
 ![leds](Images/IMG_9199.JPEG)
 
-The schematic also includes some cheaper alternatives for the photosensitive sensor and the potentiometer. You can find them on [lcsc.com](https://www.lcsc.com/) by searching the part number listed below each one (e.g. C242253 for the photosensitive sensor alternative). **The alternative parts are not included in the BOM, to avoid confusion.** One BOM, one truth.
+The **schematic** also includes some cheaper alternatives for the photosensitive sensor and the potentiometer. You can find them on [lcsc.com](https://www.lcsc.com/) by searching the part number listed below each one (e.g. C242253 for the photosensitive sensor alternative). **The alternative parts are not included in the BOM, to avoid confusion.** One BOM, one truth.
 
-## LEDs alternatives 💡
+## LEDs alternatives 
 
-You can also use [WS2812B-2020](https://www.lcsc.com/product-detail/C965555.html) LEDs (a bit more expensive) or [TCWIN TX1812ZN](https://www.lcsc.com/product-detail/C784563.html) (a little bit bigger). Keep in mind that you have to **double/triple check the pin orientation**, since the silkscreen marks don't match. Soldering 30+ LEDs backwards is a lesson you only want to learn once.
+You can also use [WS2812B-2020](https://www.lcsc.com/product-detail/C965555.html) LEDs (a bit more expensive) or [TCWIN TX1812ZN](https://www.lcsc.com/product-detail/C784563.html) (a little bit bigger). Keep in mind that you have to **double/triple check the pin orientation**, since the silkscreen marks don't match. Soldering 50+ LEDs backwards is a lesson you only want to learn once.
 
-## Assembly instructions and tips 🔧
+## Assembly instructions and tips
 
 After finishing the top side, move on to the bottom side, and pay special attention to these two parts:
 
@@ -35,7 +35,7 @@ After finishing the top side, move on to the bottom side, and pay special attent
 
 <img src="https://github.com/user-attachments/assets/840f29f3-97f0-4eee-8427-c4b847fa261d" alt="IMG_0297" />
 
-## Case 🖨️
+## Case 
 
 Print the case files from the **CaseModel** folder of this repository in whatever colors you like. The files are also available on Printables: https://www.printables.com/model/1087560-led-clock-all-in-one-pcb-powered-by-wled
 
@@ -55,11 +55,11 @@ If the tolerances are too tight and the segment covers won't go in, a small hamm
 
 ![hammer](Images/IMG_9272.JPEG) ![segments in place](Images/IMG_1794.JPEG)
 
-## Firmware 💾
+## Firmware 
 
-The firmware comes from the awesome work of [imeszaros](https://github.com/imeszaros), so all the credit for the smart part goes to him. I just made the body.
+The firmware comes from the awesome work of [imeszaros](https://github.com/imeszaros), so all the credit for the smart part goes to him.
 
-1. **Install the CH340 drivers** before connecting the clock, otherwise your computer will politely pretend nothing is plugged in.
+1. **Install the CH340 drivers** BEORE connecting the clock, otherwise your computer will politely pretend nothing is plugged in.
 2. Connect the LED Clock to your computer and use [this tool](https://imeszaros.github.io/ledclock/) to flash the board (make sure you select the correct COM port).
 3. Download the WLED app on your phone and connect to the clock to change the colors, effects and everything else:
    - Google Play: https://play.google.com/store/apps/details?id=ca.cgagnier.wlednativeandroid
@@ -67,7 +67,7 @@ The firmware comes from the awesome work of [imeszaros](https://github.com/imesz
 
 A detailed user guide can be found here: https://github.com/imeszaros/ledclock/blob/main/ledclock/users-guide.md
 
-## ENJOY ! 😊
+## ENJOY ! 
 
 Now you'll never be late again. Or at least you'll be late in style, in 16 million colors.
 
